@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1217619490460021447}
   m_Layer: 0
-  m_Name: Flat_2x5Wall
+  m_Name: Flat_2x5Wall_Greybox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -30,7 +30,6 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2460170419864499992}
-  - {fileID: 6341208488119744587}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2715387498914058483
@@ -101,10 +100,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 2x5WallTX
       objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 1d24db7c2b6f48c43b5f81419d45b407, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
+    - target: {fileID: 4994545252278938131, guid: 1d24db7c2b6f48c43b5f81419d45b407, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e5fbc6d675e75294f9f229f71c97210e, type: 2}
     - target: {fileID: 9076707640144615509, guid: 1d24db7c2b6f48c43b5f81419d45b407, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -161,65 +160,3 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 6262583339382810190, guid: 1d24db7c2b6f48c43b5f81419d45b407, type: 3}
---- !u!1001 &5252787043849177740
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 1217619490460021447}
-    m_Modifications:
-    - target: {fileID: 1217619490460021447, guid: dd113ad3124bf514dabe85a82a309937, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1217619490460021447, guid: dd113ad3124bf514dabe85a82a309937, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1217619490460021447, guid: dd113ad3124bf514dabe85a82a309937, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1217619490460021447, guid: dd113ad3124bf514dabe85a82a309937, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1217619490460021447, guid: dd113ad3124bf514dabe85a82a309937, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1217619490460021447, guid: dd113ad3124bf514dabe85a82a309937, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1217619490460021447, guid: dd113ad3124bf514dabe85a82a309937, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1217619490460021447, guid: dd113ad3124bf514dabe85a82a309937, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1217619490460021447, guid: dd113ad3124bf514dabe85a82a309937, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1217619490460021447, guid: dd113ad3124bf514dabe85a82a309937, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6416697774536767474, guid: dd113ad3124bf514dabe85a82a309937, type: 3}
-      propertyPath: m_Name
-      value: Flat_2x5Wall_Greybox
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: dd113ad3124bf514dabe85a82a309937, type: 3}
---- !u!4 &6341208488119744587 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 1217619490460021447, guid: dd113ad3124bf514dabe85a82a309937, type: 3}
-  m_PrefabInstance: {fileID: 5252787043849177740}
-  m_PrefabAsset: {fileID: 0}
